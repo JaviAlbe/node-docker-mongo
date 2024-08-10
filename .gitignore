@@ -1,0 +1,73 @@
+# Node.js specific files and folders
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+.dockerignore
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.eslintcache
+.parcel-cache
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+dist/
+out/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tgz
+
+# Docker specific files
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.dev.yml
+
+# MongoDB specific
+data/
+*.mongodb
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# IntelliJ IDEA/WebStorm specific
+# Covers WebStorm and other IntelliJ IDEA-based IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+target/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/assetWizardSettings.xml
+.idea/modules.xml
+
+# OS generated files
+.DS_Store
+Thumbs.db
